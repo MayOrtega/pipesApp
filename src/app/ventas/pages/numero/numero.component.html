@@ -1,1 +1,20 @@
-<p>numero works!</p>
+<div class="flex-layout">
+    <h1>Decimal Pipe</h1>
+    <p></p>
+</div>
+
+<div class="grid">
+    <div class="col md:col-4">
+        <p-card header="Ventas Netas"
+                subheader="del presente año">
+                <i class="pi pi-dollar"></i>
+                {{ventasNetas | number:'1.2-2'}}
+        </p-card>
+        <p-card header="División Ventas Netas"
+                subheader="por meses del año">
+                <i class="pi pi-dollar"></i>
+                {{ventasNetas / 12| number:'1.2-2'}}
+
+        </p-card>
+    </div>
+</div>
