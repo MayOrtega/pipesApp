@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class BasicosComponent {
 
+nombreLower:string = 'May';
+nombreUpper:string = 'MAY';
+nombreCompleto: string = 'MaY OrtEGa'
+fecha:Date = new Date();
+
 }
