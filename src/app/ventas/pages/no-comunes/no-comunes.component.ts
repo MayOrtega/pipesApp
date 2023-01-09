@@ -32,4 +32,10 @@ export class NoComunesComponent {
   borrarCliente(){
     this.clientes.pop()
   }
+
+  persona={
+    nombre:'Fernando',
+    edad:35,
+    ubicación: 'Ottawa, Canadá'
+  }
 }
