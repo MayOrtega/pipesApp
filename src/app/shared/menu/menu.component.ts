@@ -56,6 +56,11 @@ export class MenuComponent {
                     label:'No comunes',
                     icon:'pi pi-align-globe',
                     routerLink:'no-comunes'
+                },
+                {
+                    label:'Pipes Personalizados',
+                    icon:'pi pi-align-globe',
+                    routerLink:'ordenar'
                 }
             ]
 
